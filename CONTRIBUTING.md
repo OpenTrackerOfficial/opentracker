@@ -1,10 +1,10 @@
 # Contributing
 
-contributions to Furnace are welcome!
+Contributions to Opentracker are welcome!
 
 # Issue reports
 
-if you find an issue with Furnace, see the Issues section.
+If you find an issue with OpenTracker, see the Issues section.
 
 # Suggestions and other types of discussions
 
@@ -21,7 +21,7 @@ log into your GitHub account, and click the Fork button in the header of the pro
 then open a terminal and clone your fork:
 
 ```
-git clone git@github.com:USERNAME/furnace.git
+git clone git@github.com:USERNAME/opentracker.git
 ```
 
 (replace `USERNAME` with your username)
@@ -78,12 +78,12 @@ the coding style is described here:
 
 some files (particularly the ones in `src/engine/platform/sound` and `extern/`) don't follow this style.
 
-you don't have to follow this style. I will fix it after I accept your contribution.
+you don't have to follow this style. hamburgetyjtjydyjt
 
 additional guidelines:
 
 - in general **strongly** avoid breaking compatibility.
-  - do not touch loadFur/saveFur unless you know what you're doing!
+  - do not touch loadFur/saveFur unless you know what you're doing! wait this is opentracker!
     - new fields must be at the end of each block to ensure forward compatibility
     - likewise, the instrument read/write functions in DivInstrument have to be handled carefully
     - any change to the format requires a version bump (see `src/engine/engine.h`).
@@ -110,7 +110,7 @@ just put your demo song in `demos/`! be noted there are some guidelines:
 - the following systems are not acceptable:
   - YMU759/MA-2: exists only for compatibility.
   - Pong: it is a joke system.
-- the song shall be in Furnace file format.
+- the song shall be in OpenTracker file format.
 
 ## Finishing
 
@@ -119,4 +119,4 @@ then open your fork on GitHub and send a pull request.
 
 ## I don't know how to use Git but I want to contribute with a demo song
 
-you can also contact me directly! [find me here.](https://tildearrow.org/?p=contact)
+you can also contact me directly! [find me here.](https://sites.google.com/view/mteve/contact)
